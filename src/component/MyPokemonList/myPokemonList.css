@@ -1,0 +1,5 @@
+.myPokelist {
+  overflow: scroll;
+  padding: 5px;
+  height: 600px;
+}
