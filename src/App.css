@@ -1,0 +1,14 @@
+.bodyList {
+  background-color: saddlebrown;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.myPokelist {
+  overflow: scroll;
+  padding: 5px;
+  height: 600px;
+}

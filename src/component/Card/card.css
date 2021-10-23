@@ -1,0 +1,42 @@
+.add-btn {
+  display: none;
+}
+.listBody {
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f3f4f7;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 10px 0 #aeaeae;
+}
+
+.card:hover > .listBody > .addSection > .add-btn {
+  display: flex;
+  justify-content: right;
+  color: #dc7777;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.title-detail {
+  font-size: 18px;
+}
+
+.happyness-body {
+  padding: 10px 5px 5px;
+}
+
+.img-happy {
+  padding: 5px;
+}
